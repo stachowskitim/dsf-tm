@@ -1,10 +1,10 @@
-#!/Applications/Mathematica.app/Contents/MacOS/MathematicaScript
+(* ::Package:: *)
 
 in = ToString[$ScriptCommandLine[[2]]];
 
 tshift[in_] :=
  Module[
-  {a, b,data,tm},
+  {a,b,data,tm,list},
   data = Import[in][[2;;,All]];
   a = Interpolation[data,Method->"Spline"];
   b = a';
