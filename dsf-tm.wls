@@ -1,4 +1,4 @@
-
+#!/Applications/Mathematica.app/Contents/MacOS/MathematicaScript
 
 in = ToString[$ScriptCommandLine[[2]]];
 
