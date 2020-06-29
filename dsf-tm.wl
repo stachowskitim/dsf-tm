@@ -1,4 +1,4 @@
-(* ::Package:: *)
+
 
 in = ToString[$ScriptCommandLine[[2]]];
 
